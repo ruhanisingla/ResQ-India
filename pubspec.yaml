@@ -48,7 +48,8 @@ dependencies:
   googleapis_auth: ^1.6.0  # ✅ Authentication for Google APIs
   googleapis: ^12.0.0      # ✅ Includes Dialogflow API support
   uuid: ^4.2.1             #
- 
+  floating_action_bubble: ^1.1.4
+  provider: ^6.0.5
    
 dev_dependencies:
   flutter_test:

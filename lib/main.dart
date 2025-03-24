@@ -9,13 +9,12 @@ import 'resources_screen.dart';
 import 'disaster_map_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'location_service.dart'; // ✅ Import LocationService
+import 'chatbot_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
-  await Firebase.initializeApp(
-    options: DefaultFirebaseOptions.currentPlatform,
-  );
-  
+  await Firebase.initializeApp(options: DefaultFirebaseOptions.currentPlatform);
+
   runApp(MyApp());
 }
 
@@ -81,6 +80,25 @@ class _MyHomePageState extends State<MyHomePage> {
     }
   }
 
+  // ✅ Added missing _buildNavButton function
+  Widget _buildNavButton(String title, VoidCallback onTap) {
+    return ElevatedButton(
+      onPressed: onTap,
+      style: ElevatedButton.styleFrom(
+        backgroundColor: Color(0xFFFAF0E6), // Pale Beige
+        foregroundColor: Colors.black,
+        shape: RoundedRectangleBorder(
+          borderRadius: BorderRadius.circular(20.0),
+        ),
+        padding: EdgeInsets.symmetric(vertical: 10, horizontal: 20),
+      ),
+      child: Text(
+        title,
+        style: GoogleFonts.poppins(fontSize: 16),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -126,7 +144,10 @@ class _MyHomePageState extends State<MyHomePage> {
                   ),
                   padding: EdgeInsets.symmetric(vertical: 15, horizontal: 20),
                 ),
-                child: Text('View Disaster Alerts', style: GoogleFonts.poppins(fontSize: 18)),
+                child: Text(
+                  'View Disaster Alerts',
+                  style: GoogleFonts.poppins(fontSize: 18),
+                ),
               ),
             ),
 
@@ -136,7 +157,10 @@ class _MyHomePageState extends State<MyHomePage> {
               child: Text(
                 "📍 Your Location: ${isLoading ? "Fetching location..." : userLocation}",
                 textAlign: TextAlign.center,
-                style: GoogleFonts.poppins(fontSize: 14, fontWeight: FontWeight.bold),
+                style: GoogleFonts.poppins(
+                  fontSize: 14,
+                  fontWeight: FontWeight.bold,
+                ),
               ),
             ),
 
@@ -149,7 +173,10 @@ class _MyHomePageState extends State<MyHomePage> {
                     flex: 1,
                     child: SizedBox(
                       height: 180,
-                      child: Image.asset('assets/family_safe.jpg', fit: BoxFit.contain),
+                      child: Image.asset(
+                        'assets/family_safe.jpg',
+                        fit: BoxFit.contain,
+                      ),
                     ),
                   ),
                   SizedBox(width: 15),
@@ -186,7 +213,10 @@ class _MyHomePageState extends State<MyHomePage> {
                 ),
                 padding: EdgeInsets.symmetric(vertical: 15, horizontal: 30),
               ),
-              child: Text('View Nearby Disasters', style: GoogleFonts.poppins(fontSize: 16)),
+              child: Text(
+                'View Nearby Disasters',
+                style: GoogleFonts.poppins(fontSize: 16),
+              ),
             ),
             SizedBox(height: 20),
 
@@ -205,7 +235,9 @@ class _MyHomePageState extends State<MyHomePage> {
                   _buildNavButton('Resources', () {
                     Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => ResourcesScreen()),
+                      MaterialPageRoute(
+                        builder: (context) => ResourcesScreen(),
+                      ),
                     );
                   }),
                 ],
@@ -215,19 +247,16 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
-     
-    );
-  }
-
-  Widget _buildNavButton(String text, VoidCallback onPressed) {
-    return ElevatedButton(
-      onPressed: onPressed,
-      style: ElevatedButton.styleFrom(
-        backgroundColor: Colors.grey[200],
-        foregroundColor: Colors.black,
-        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20.0)),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(builder: (context) => ChatBotScreen()),
+          );
+        },
+        backgroundColor: Colors.black,
+        child: Icon(Icons.chat, color: Colors.white),
       ),
-      child: Text(text, style: GoogleFonts.poppins(fontSize: 14)),
     );
   }
 }
