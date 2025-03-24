@@ -65,23 +65,21 @@ class _MyHomePageState extends State<MyHomePage> {
   }
 
   Future<void> _fetchLocation() async {
-  setState(() => isLoading = true);
+    setState(() => isLoading = true);
 
-  try {
-    String location = await LocationService.getCurrentLocation();
-
-    setState(() {
-      userLocation = location;
-      isLoading = false;
-    });
-  } catch (e) {
-    setState(() {
-      userLocation = "Error: ${e.toString()}";
-      isLoading = false;
-    });
+    try {
+      String location = await LocationService.getCurrentLocation();
+      setState(() {
+        userLocation = location;
+        isLoading = false;
+      });
+    } catch (e) {
+      setState(() {
+        userLocation = "Error: ${e.toString()}";
+        isLoading = false;
+      });
+    }
   }
-}
-
 
   @override
   Widget build(BuildContext context) {
@@ -171,6 +169,8 @@ class _MyHomePageState extends State<MyHomePage> {
               ),
             ),
             SizedBox(height: 15),
+
+            // 🗺️ View Nearby Disasters Button
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -215,6 +215,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
+     
     );
   }
 
