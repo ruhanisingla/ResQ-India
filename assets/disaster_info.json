@@ -1,0 +1,334 @@
+{
+    "earthquake": {
+      "title": "Earthquake",
+      "imagePath": "assets/earthquake.png",
+      "description": "An earthquake is the sudden shaking of the Earth's surface caused by seismic activity. It can cause massive destruction and loss of life.",
+      "causes": [
+        "Tectonic movements",
+        "Volcanic eruptions",
+        "Underground explosions",
+        "Mining operations"
+      ],
+      "precautions": [
+        "Secure heavy furniture to walls.",
+        "Prepare an emergency kit.",
+        "Practice earthquake drills.",
+        "Identify safe places at home."
+      ],
+      "dos_donts": {
+        "before": {
+          "dos": [
+            "Fasten shelves and cabinets securely.",
+            "Know emergency contact numbers.",
+            "Have a first aid kit ready."
+          ],
+          "donts": [
+            "Ignore earthquake safety drills.",
+            "Build houses in earthquake-prone areas.",
+            "Keep heavy objects on high shelves."
+          ]
+        },
+        "during": {
+          "dos": [
+            "Drop, cover, and hold on.",
+            "Stay under a sturdy table.",
+            "Protect your head and neck."
+          ],
+          "donts": [
+            "Run outside immediately.",
+            "Use elevators.",
+            "Stand near windows."
+          ]
+        },
+        "after": {
+          "dos": [
+            "Check for injuries.",
+            "Follow emergency broadcasts.",
+            "Prepare for aftershocks."
+          ],
+          "donts": [
+            "Use damaged electrical outlets.",
+            "Return to unsafe buildings.",
+            "Spread rumors."
+          ]
+        }
+      }
+    },
+  
+    "flood": {
+      "title": "Flood",
+      "imagePath": "assets/flood.png",
+      "description": "A flood is an overflow of water that submerges land. It can be caused by heavy rainfall, storm surges, or dam failures.",
+      "causes": [
+        "Heavy rainfall",
+        "Dam failure",
+        "Storm surge",
+        "Melting glaciers"
+      ],
+      "precautions": [
+        "Move to higher ground.",
+        "Avoid walking through floodwaters.",
+        "Turn off electricity and gas."
+      ],
+      "dos_donts": {
+        "before": {
+          "dos": [
+            "Prepare an emergency kit.",
+            "Store food and water.",
+            "Know evacuation routes."
+          ],
+          "donts": [
+            "Ignore flood warnings.",
+            "Stay in low-lying areas.",
+            "Forget to charge mobile devices."
+          ]
+        },
+        "during": {
+          "dos": [
+            "Move to higher ground immediately.",
+            "Listen to emergency broadcasts.",
+            "Avoid contact with floodwater."
+          ],
+          "donts": [
+            "Drive through flooded roads.",
+            "Touch electrical equipment.",
+            "Walk in floodwaters."
+          ]
+        },
+        "after": {
+          "dos": [
+            "Clean and disinfect everything.",
+            "Check for structural damage.",
+            "Drink clean water only."
+          ],
+          "donts": [
+            "Return home too soon.",
+            "Consume contaminated food.",
+            "Ignore health risks."
+          ]
+        }
+      }
+    },
+
+    "tsunami": {
+        "title": "Tsunami",
+        "imagePath": "assets/tsunami.png",
+        "description": "A tsunami is a series of large waves caused by underwater earthquakes or volcanic eruptions.",
+        "causes": [
+          "Underwater earthquakes",
+          "Volcanic eruptions",
+          "Landslides in oceans",
+          "Meteorite impacts"
+        ],
+        "precautions": [
+          "Move inland or to higher ground.",
+          "Listen to tsunami warnings.",
+          "Evacuate coastal areas."
+        ],
+        "dos_donts": {
+          "before": {
+            "dos": [
+              "Learn tsunami evacuation routes.",
+              "Stay informed about warning signs.",
+              "Have an emergency bag ready."
+            ],
+            "donts": [
+              "Live near the shoreline without proper safety measures.",
+              "Ignore tsunami warnings.",
+              "Stay in low-lying coastal areas."
+            ]
+          },
+          "during": {
+            "dos": [
+              "Move to higher ground immediately.",
+              "Follow evacuation orders.",
+              "Stay away from shorelines."
+            ],
+            "donts": [
+              "Stay on the beach.",
+              "Try to surf the waves.",
+              "Ignore sirens or alerts."
+            ]
+          },
+          "after": {
+            "dos": [
+              "Wait for official clearance before returning home.",
+              "Help injured individuals.",
+              "Be prepared for aftershocks."
+            ],
+            "donts": [
+              "Drink contaminated water.",
+              "Go near unstable structures.",
+              "Ignore aftershock warnings."
+            ]
+          }
+        }
+      },
+
+      
+    "cyclone": {
+    "title": "Cyclone",
+    "imagePath": "assets/cyclone.png",
+    "description": "A cyclone is a powerful storm with strong winds and heavy rain that can cause severe destruction.",
+    "causes": [
+      "Low-pressure systems",
+      "Warm ocean temperatures",
+      "Humidity and wind patterns"
+    ],
+    "precautions": [
+      "Stay indoors during warnings.",
+      "Secure doors and windows.",
+      "Stock up on emergency supplies."
+    ],
+    "dos_donts": {
+      "before": {
+        "dos": [
+          "Listen to weather reports.",
+          "Reinforce your home’s structure.",
+          "Evacuate if instructed."
+        ],
+        "donts": [
+          "Ignore evacuation warnings.",
+          "Store loose outdoor items.",
+          "Panic and spread false information."
+        ]
+      },
+      "during": {
+        "dos": [
+          "Stay inside a safe structure.",
+          "Follow emergency updates.",
+          "Keep emergency supplies handy."
+        ],
+        "donts": [
+          "Stand near windows.",
+          "Go outside during strong winds.",
+          "Use electrical appliances."
+        ]
+      },
+      "after": {
+        "dos": [
+          "Check for injuries and damage.",
+          "Drink only clean water.",
+          "Help in rescue operations."
+        ],
+        "donts": [
+          "Go near broken power lines.",
+          "Ignore safety warnings.",
+          "Drink contaminated water."
+        ]
+      }
+    }
+  },
+
+  
+    "heat wave": {
+      "title": "Heat Wave",
+      "imagePath": "assets/heatwave.png",
+      "description": "A heat wave is a prolonged period of excessively hot weather, which may be accompanied by high humidity.",
+      "causes": [
+        "High atmospheric pressure",
+        "Lack of cloud cover",
+        "Climate change",
+        "Urban heat island effect"
+      ],
+      "precautions": [
+        "Stay indoors during peak hours.",
+        "Drink plenty of water.",
+        "Wear light-colored, loose clothing."
+      ],
+      "dos_donts": {
+        "before": {
+          "dos": [
+            "Keep yourself hydrated.",
+            "Wear a hat and sunscreen.",
+            "Close curtains to block sunlight."
+          ],
+          "donts": [
+            "Engage in strenuous outdoor activities.",
+            "Wear dark-colored clothing.",
+            "Leave children or pets in cars."
+          ]
+        },
+        "during": {
+          "dos": [
+            "Stay in air-conditioned places.",
+            "Take cool showers.",
+            "Drink electrolyte-rich fluids."
+          ],
+          "donts": [
+            "Consume alcohol or caffeine excessively.",
+            "Ignore heat stroke symptoms.",
+            "Leave home without a water bottle."
+          ]
+        },
+        "after": {
+          "dos": [
+            "Monitor health symptoms.",
+            "Help neighbors, especially the elderly.",
+            "Continue to drink plenty of fluids."
+          ],
+          "donts": [
+            "Stop hydration suddenly.",
+            "Overexert yourself immediately.",
+            "Ignore persistent dizziness or nausea."
+          ]
+        }
+      }
+    },
+  
+    "landslide": {
+      "title": "Landslide",
+      "imagePath": "assets/landslide.png",
+      "description": "A landslide is the movement of rock, earth, or debris down a slope due to gravity, often triggered by rain, earthquakes, or human activities.",
+      "causes": [
+        "Heavy rainfall",
+        "Earthquakes",
+        "Deforestation",
+        "Mining activities"
+      ],
+      "precautions": [
+        "Avoid construction on steep slopes.",
+        "Check for warning signs like cracks in the ground.",
+        "Follow local weather and geological alerts."
+      ],
+      "dos_donts": {
+        "before": {
+          "dos": [
+            "Know landslide-prone areas around you.",
+            "Have an evacuation plan ready.",
+            "Plant trees to prevent soil erosion."
+          ],
+          "donts": [
+            "Ignore warning signs like cracks in walls or ground.",
+            "Block natural water drainage.",
+            "Undermine the stability of slopes by cutting them."
+          ]
+        },
+        "during": {
+          "dos": [
+            "Move to higher ground immediately.",
+            "Stay away from landslide-prone areas.",
+            "Follow emergency alerts and sirens."
+          ],
+          "donts": [
+            "Stay in valleys or low-lying areas.",
+            "Ignore warning signs.",
+            "Try to cross an active landslide."
+          ]
+        },
+        "after": {
+          "dos": [
+            "Check for trapped people and help if possible.",
+            "Report damages to authorities.",
+            "Be prepared for additional landslides."
+          ],
+          "donts": [
+            "Return to the area immediately.",
+            "Drink water from contaminated sources.",
+            "Ignore safety instructions from authorities."
+          ]
+        }
+      }
+    }
+  }
+  

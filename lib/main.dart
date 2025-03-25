@@ -10,6 +10,8 @@ import 'disaster_map_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'location_service.dart'; // ✅ Import LocationService
 import 'chatbot_screen.dart';
+import 'disaster_detail_screen.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -232,7 +234,7 @@ class _MyHomePageState extends State<MyHomePage> {
                       MaterialPageRoute(builder: (context) => HelpScreen()),
                     );
                   }),
-                  _buildNavButton('Resources', () {
+                  _buildNavButton('Emergency Contacts', () {
                     Navigator.push(
                       context,
                       MaterialPageRoute(
@@ -243,6 +245,38 @@ class _MyHomePageState extends State<MyHomePage> {
                 ],
               ),
             ),
+            SizedBox(height: 20),
+
+            // 🌪️ Disaster Guide Section (Added Below Help & Resources)
+            Padding(
+  padding: const EdgeInsets.all(16.0),
+  child: Column(
+    children: [
+      Text(
+        'Disaster Preparedness Guide',
+        style: GoogleFonts.poppins(
+          fontSize: 18,
+          fontWeight: FontWeight.bold,
+        ),
+      ),
+      SizedBox(height: 10),
+      GridView.count(
+        shrinkWrap: true,
+        crossAxisCount: 3,
+        physics: NeverScrollableScrollPhysics(),
+        children: [
+          _buildDisasterIcon('earthquake.png', 'Earthquake'),
+          _buildDisasterIcon('flood.png', 'Flood'),
+          _buildDisasterIcon('tsunami.png', 'Tsunami'),
+          _buildDisasterIcon('cyclone.png', 'Cyclone'),
+          _buildDisasterIcon('heatwave.png', 'Heat Wave'),
+          _buildDisasterIcon('landslide.png', 'Landslide'),
+        ],
+      ),
+    ],
+  ),
+),
+
             SizedBox(height: 20),
           ],
         ),
@@ -259,4 +293,34 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
     );
   }
+
+ Widget _buildDisasterIcon(String imageName, String label) {
+  return GestureDetector(
+    onTap: () {
+      Navigator.push(
+        context,
+        MaterialPageRoute(
+          builder: (context) => DisasterDetailScreen(disasterName: label), // ✅ Removed imagePath
+        ),
+      );
+    },
+    child: Column(
+      mainAxisAlignment: MainAxisAlignment.center,
+      children: [
+        Image.asset(
+          'assets/$imageName',
+          width: 50,
+          height: 50,
+          fit: BoxFit.contain,
+          errorBuilder: (context, error, stackTrace) => Icon(Icons.error, size: 50, color: Colors.red), // ✅ Handles missing image
+        ),
+        SizedBox(height: 5),
+        Text(label, style: GoogleFonts.poppins(fontSize: 14)),
+      ],
+    ),
+  );
+}
+
+
+
 }
