@@ -32,7 +32,7 @@ class ResourcesScreen extends StatelessWidget {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             Text(
-              "📞 Emergency Contact Numbers",
+              "Emergency Contact Numbers",
               style: GoogleFonts.poppins(fontSize: 20, fontWeight: FontWeight.bold),
             ),
             const SizedBox(height: 10),
@@ -43,7 +43,7 @@ class ResourcesScreen extends StatelessWidget {
                 children: [
                   _buildContactTile("🚔 Police", "100"),
                   _buildContactTile("🚒 Fire Brigade", "101"),
-                  _buildContactTile("🚑 Ambulance", "102"),
+                  _buildContactTile("🚑 Emergency Response Support System (ERSS)", "112"),
                   _buildContactTile("🚨 Disaster Management", "108"),
                   _buildContactTile("👩‍⚕️ Medical Helpline", "104"),
                   _buildContactTile("🌍 National Disaster Response Force (NDRF)", "011-24363260"),
@@ -64,7 +64,6 @@ class ResourcesScreen extends StatelessWidget {
       elevation: 3,
       margin: const EdgeInsets.symmetric(vertical: 8),
       child: ListTile(
-        leading: const Icon(Icons.phone, color: Colors.green),
         title: Text(title, style: GoogleFonts.poppins(fontSize: 16, fontWeight: FontWeight.w600)),
         subtitle: Text(phoneNumber, style: GoogleFonts.poppins(fontSize: 14, color: Colors.black54)),
         trailing: const Icon(Icons.call, color: Colors.green),
