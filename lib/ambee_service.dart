@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:http/http.dart' as http;
 
 class AmbeeService {
-  final String apiKey = "ee85c0683ae2b9ca6d87d082af3323d1b8f9c8f2e118f55d3d95cee2e5a9c7cb";  // Replace with your Ambee API Key
+  final String apiKey = "";  // Replace with your Ambee API Key
   final String baseUrl = "https://api.ambeedata.com/disasters/latest/by-country-code?countryCode=IND&limit=50&page=1";
 
   Future<Map<String, dynamic>?> fetchDisasterData() async {
