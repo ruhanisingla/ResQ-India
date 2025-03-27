@@ -16,7 +16,7 @@ class _MapsScreenState extends State<MapsScreen> {
   late GoogleMapController mapController;
   LatLng? _currentPosition;
   final Set<Marker> _markers = {};
-  final String _apiKey = 'AIzaSyAMhk7_UnEk4BboQY85p2-tICqP67plkgA'; // Replace with your API Key
+  final String _apiKey = ''; // Replace with your API Key
   List<Map<String, String>> _hospitalList = [];
 
   @override
