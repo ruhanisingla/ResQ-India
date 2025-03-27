@@ -15,7 +15,7 @@ class _ChatBotScreenState extends State<ChatBotScreen> {
   final ScrollController _scrollController = ScrollController();
 
   // ✅ Use your valid Gemini API key
-  static const String apiKey = "AIzaSyCHTfQa1BzQYir03Gu_A9cHqIhgNWUeqe8";
+  static const String apiKey = ""; //update your gemini api key
   static const String url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-pro-002:generateContent?key=$apiKey";
 
   Future<void> sendMessage(String message) async {
