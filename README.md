@@ -22,7 +22,6 @@ This leads to delayed rescue efforts, unaddressed emergencies, and inefficient u
 - Location-based help request and response system
 - AI chatbot for quick disaster guidance 
 - One-tap emergency contact options
-- Operations panel to manage responders and track progress
 
 
 ## 🛠️ Tech Stack
