@@ -45,7 +45,7 @@ As we continue to enhance ResQ India, our mission is to create a more connected,
 ### Live Chat for Coordination
 Introduce real-time communication so users can instantly connect with rescue teams, nearby volunteers, or help centers for faster coordination during emergencies.
 
-### ⚠Notification & Alert System
+### Notification & Alert System
 Implement an advanced alert system to help authorities and users stay updated with disaster progress, including visual trackers like progress bars to monitor covered or pending regions.
 
 ### Partnerships with NGOs & Government Agencies
