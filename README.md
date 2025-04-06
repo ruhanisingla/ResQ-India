@@ -1,4 +1,6 @@
-# ResQ India – Smart Disaster Response App
+
+
+<h1 align="center">ResQ India</h1>
 
 ResQ India is a mobile application built with Flutter to help organize disaster management in India. It connects victims and responders in real-time, fetches disaster alerts, and offers AI-powered support—all in one platform.
 
