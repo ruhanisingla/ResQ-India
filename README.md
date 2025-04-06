@@ -6,7 +6,7 @@ ResQ India is a mobile application built with Flutter to help organize disaster 
 
 ---
 
-## 🌍 Real-World Problem
+## Real-World Problem
 
 During natural disasters, people often suffer due to:
 - Delayed communication
@@ -17,7 +17,7 @@ This leads to delayed rescue efforts, unaddressed emergencies, and inefficient u
 
 ---
 
-## 💡 Our Solution
+##  Our Solution
 
 **ResQ India** bridges these gaps by offering:
 - Real-time disaster alerts 
@@ -26,7 +26,7 @@ This leads to delayed rescue efforts, unaddressed emergencies, and inefficient u
 - One-tap emergency contact options
 
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Technology        | Role                                      |
 |-------------------|-------------------------------------------|
@@ -37,6 +37,26 @@ This leads to delayed rescue efforts, unaddressed emergencies, and inefficient u
 | ![Gemini API](https://img.shields.io/badge/Gemini%20API-5F6368?logo=google&logoColor=white&style=for-the-badge) | AI chatbot support |
 | ![Geolocator](https://img.shields.io/badge/Geolocator-FF7043?logo=location&logoColor=white&style=for-the-badge) | Location services |
 | ![Google IDX](https://img.shields.io/badge/Google%20IDX-4285F4?logo=google&logoColor=white&style=for-the-badge) | Cloud IDE for development |
+
+## What's Next for ResQ India
+
+As we continue to enhance ResQ India, our mission is to create a more connected, inclusive, and resilient disaster management platform. Here's what's coming next:
+
+### Live Chat for Coordination
+Introduce real-time communication so users can instantly connect with rescue teams, nearby volunteers, or help centers for faster coordination during emergencies.
+
+### ⚠Notification & Alert System
+Implement an advanced alert system to help authorities and users stay updated with disaster progress, including visual trackers like progress bars to monitor covered or pending regions.
+
+### Partnerships with NGOs & Government Agencies
+Collaborate with NGOs and government bodies to manage the real-time distribution of critical relief resources such as food, medical supplies, and shelter materials.
+
+### Offline Support
+Enable users to access and update information even without an internet connection — ensuring uninterrupted assistance in the most affected regions.
+
+These features will further empower ResQ India to be a complete end-to-end disaster management ecosystem for both citizens and response authorities.
+
+
 
 
 
