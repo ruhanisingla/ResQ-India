@@ -35,7 +35,7 @@ This leads to delayed rescue efforts, unaddressed emergencies, and inefficient u
 | ![Google Maps](https://img.shields.io/badge/Google%20Maps-4285F4?logo=googlemaps&logoColor=white&style=for-the-badge) | Interactive map and location |
 | ![Gemini API](https://img.shields.io/badge/Gemini%20API-5F6368?logo=google&logoColor=white&style=for-the-badge) | AI chatbot support |
 | ![Geolocator](https://img.shields.io/badge/Geolocator-FF7043?logo=location&logoColor=white&style=for-the-badge) | Location services |
-| ![Android Studio](https://img.shields.io/badge/Android%20Studio-3DDC84?logo=android-studio&logoColor=white&style=for-the-badge) | App development environment |
+| ![Google IDX](https://img.shields.io/badge/Google%20IDX-4285F4?logo=google&logoColor=white&style=for-the-badge) | Cloud IDE for development |
 
 
 
