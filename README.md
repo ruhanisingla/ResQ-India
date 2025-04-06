@@ -40,21 +40,17 @@ This leads to delayed rescue efforts, unaddressed emergencies, and inefficient u
 
 ## What's Next for ResQ India
 
-As we continue to enhance ResQ India, our mission is to create a more connected, inclusive, and resilient disaster management platform. Here's what's coming next:
 
 ### Live Chat for Coordination
 Introduce real-time communication so users can instantly connect with rescue teams, nearby volunteers, or help centers for faster coordination during emergencies.
-
 ### Notification & Alert System
 Implement an advanced alert system to help authorities and users stay updated with disaster progress, including visual trackers like progress bars to monitor covered or pending regions.
-
 ### Partnerships with NGOs & Government Agencies
 Collaborate with NGOs and government bodies to manage the real-time distribution of critical relief resources such as food, medical supplies, and shelter materials.
-
 ### Offline Support
 Enable users to access and update information even without an internet connection — ensuring uninterrupted assistance in the most affected regions.
 
-These features will further empower ResQ India to be a complete end-to-end disaster management ecosystem for both citizens and response authorities.
+These features will further empower our app to be a complete end-to-end disaster management ecosystem for both citizens and response authorities.
 
 
 
